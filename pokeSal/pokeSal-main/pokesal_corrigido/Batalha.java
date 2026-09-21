@@ -111,7 +111,7 @@ public class Batalha {
 				turnoUsado = true;
 			} else if (opcao == 2) {
 				if (!atual.podeUsarItem()) {
-					System.out.println("Você já usou o máximo de itens nesta batalha. Escolha outra ação.");
+					System.out.println("Você ja usou o máximo de itens nesta batalha. Escolha outra ação.");
 				} else {
 					turnoUsado = escolherItem(atual);
 				}
