@@ -30,7 +30,7 @@ public class Main {
 			nome1 = "Treinador 1";
 		}
 		mostrarPokesais();
-		int escolha1 = Entrada.lerInteiro(nome1 + ", escolha seu Pokésal (1 a 6): ", 1, 6);
+		int escolha1 = Entrada.lerInteiro(nome1 + ", escolha seu Pokésal: ", 1, 6);
 		Pokesal pokesal1 = criarPokesal(escolha1);
 
 		String nome2 = Entrada.lerTexto("\nNome do Treinador 2: ");
@@ -38,7 +38,7 @@ public class Main {
 			nome2 = "Treinador 2";
 		}
 		mostrarPokesais();
-		int escolha2 = Entrada.lerInteiro(nome2 + ", escolha seu Pokésal (1 a 6): ", 1, 6);
+		int escolha2 = Entrada.lerInteiro(nome2 + ", escolha seu Pokésal: ", 1, 6);
 		Pokesal pokesal2 = criarPokesal(escolha2);
 
 		System.out.println("\nTerrenos do Estacionamento da UCSal:");
