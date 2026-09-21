@@ -26,9 +26,9 @@ public class Entrada {
                 if (numero >= min && numero <= max) {
                     return numero;
                 }
-                System.out.println("Opção inválida: Digite um número entre " + min + " e " + max + ".");
+                System.out.println("Opção inválida: Digite um numero entre " + min + " e " + max + ".");
             } catch (NumberFormatException e) {
-                System.out.println("Entrada inválida! Digite apenas números.");
+                System.out.println("Entrada inválida! Digite apenas numeros.");
             }
         }
     }
