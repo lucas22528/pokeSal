@@ -17,7 +17,7 @@ public class Main {
 			System.out.println("Jogo de batalha POKESAL:");
 
 			System.out.println("1: Iniciar batalha");
-			System.out.println("2: Ver Pokésais disponíveis");
+			System.out.println("2: Ver Pokesais disponíveis");
 			System.out.println("0: Sair");
 
 			opcao = Entrada.lerInteiro("Escolha uma opção: ", 0, 2);
@@ -88,13 +88,13 @@ public class Main {
 		case 2:
 			return new Pokesal("CharSal", "Fogo", 70);
 		case 3:
-			return new Pokesal("SquirtSal", "Água", 40);
+			return new Pokesal("SquirtSal", "Agua", 40);
 		case 4:
 			return new Pokesal("ChikoSal", "Planta", 60);
 		case 5:
 			return new Pokesal("CyndaSal", "Fogo", 80);
 		default:
-			return new Pokesal("TotoSal", "Água", 50);
+			return new Pokesal("TotoSal", "Agua", 50);
 		}
 	}
 
