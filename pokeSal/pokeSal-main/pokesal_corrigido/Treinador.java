@@ -76,7 +76,7 @@ public class Treinador {
 		int hpAntes = pokesal.getHp();
 		pokesal.curar(20);
 		int recuperado = pokesal.getHp() - hpAntes;
-		return nome + " usou Potion! " + pokesal.getNome() + " recuperou " + recuperado + " HP.";
+		return nome + " usou Potion e " + pokesal.getNome() + " recuperou " + recuperado + " HP.";
 	}
 
 	/**
